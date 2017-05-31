@@ -128,10 +128,9 @@ class MessagesManager
         sendMessageHolder(friendAccount, message, holder1);
     }
 
-    public void addNewMessageListener(Holder holder)
+    public void getUnreadMessage(Holder holder)
     {
-        NewMessageHandler handler = new NewMessageHandler(holder);
-        handler.start();
+        // Waiting to update!
     }
 }
 

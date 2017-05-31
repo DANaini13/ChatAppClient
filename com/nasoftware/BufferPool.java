@@ -12,12 +12,12 @@ import java.util.concurrent.locks.ReentrantLock;
 
 class InstructionPool
 {
-    private String[] data = new String[4];
-    private boolean[] updated = new boolean[4];
+    private String[] data = new String[5];
+    private boolean[] updated = new boolean[5];
 
     public InstructionPool()
     {
-        for(int i=0; i<4; ++i) {
+        for(int i=0; i<5; ++i) {
             data[i] = "";
             updated[i] = false;
         }
