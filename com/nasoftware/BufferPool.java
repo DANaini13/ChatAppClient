@@ -1,4 +1,4 @@
-package com.company;
+package com.nasoftware;
 
 
 import java.util.LinkedList;

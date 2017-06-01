@@ -1,6 +1,4 @@
-package com.company;
-
-import sun.reflect.generics.scope.Scope;
+package com.nasoftware;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -87,10 +85,11 @@ class Reader extends Thread
     {
             try {
                 String[] parts = code.split("-");
-                if(parts.length != 2)
+                if(parts.length != 2 && false)
                     throw(new IOException());
-                if(parts[0] == "5")
+                if(parts[0].equals("5")) {
                     BufferPool.messageQueue.enqueueNewMessage(parts[1]);
+                }
                 else
                     BufferPool.instructionPool.storeIn(parts[0].charAt(0) - '1', parts[1]);
             } catch (IOException e) {
