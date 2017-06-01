@@ -1,4 +1,7 @@
 # ChatAppClient
 
 This Client should work with ChatAppServer together.
-Read Main.Java to find more info.
+A example for using the Client APIs canbe download at:
+
+https://github.com/DANaini13/ChatAppExampleCode
+
