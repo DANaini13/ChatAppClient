@@ -40,6 +40,7 @@ public class NAManager {
     static public MessagesManager messagesManager = new MessagesManager();
     static public void init()
     {
-        Client client = new Client("45.56.93.181", 22000);
+        Client client = new Client("localHost", 22000);
+        // change the server and port here to match the server you used running ChatAppServer.
     }
 }
